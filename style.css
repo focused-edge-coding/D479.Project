@@ -1,0 +1,257 @@
+:root {
+    --color1: #f8f2de;
+    --color2: #8fc2f5;
+    --color3: #05294c;
+    --color4: #4b3a06;
+    --color5: black;
+}
+
+* {
+    font-size: 16px;
+    background-color: var(--color1);
+}
+
+
+.navigation {
+    list-style-type: none;
+    background-color: var(--color2);
+    border: 5px var(--color3);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation li {
+    flex: 1;
+    color: var(--color5);
+    background-color: var(--color2);
+}
+
+.navigation li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1em;
+    color: var(--color5);
+    background-color: var(--color2);
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.dropdown {
+    justify-content: center;
+    display: block;
+}
+.dropdown .dropbtn {
+    font-size: 1em;
+    border: none;
+    margin: 0px;
+    background-color: var(--color2);
+}
+
+.dropdownContent {
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    min-height: fit-content;
+    z-index: 1;
+}
+
+.dropdownContent a {
+    padding: 12px 16px;
+    display: block;
+    float: none;
+    text-align: center;
+}
+
+.dropdown:hover .dropdownContent {
+    display: block;
+}
+
+.dropdownContent a:hover {
+    text-decoration: underline;
+}
+
+#homeHeading {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    width: 98%;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 1px;
+}
+
+#homeimg {
+    display: block;
+    object-fit: contain;
+}
+
+#title {
+    position: absolute;
+    top: 8px;
+    left: 20%;
+    background: none;
+    align-content: center;
+}
+
+h1 {
+    font: 4em bold;
+    font-variant: small-caps;
+    text-align: center;
+    text-decoration: underline var(--color3);
+    color: var(--color3)
+}
+
+h2 {
+    font: 3em bolder;
+    font-variant: small-caps;
+    text-align: center;
+    color: var(--color3);
+}
+
+.fullWidthText {
+    display: block;
+    font: 3em bolder;
+    text-align: center;
+    color: var(--color3);
+    padding: 10px;
+    border: 3px ridge var(--color4);
+    background-color: var(--color1);
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    position: relative;
+}
+
+.sideImg {
+    width: 48%;
+    margin-right: 1%;
+    justify-content: left;
+}
+
+#sideText {
+    width: 45%;
+    margin-top: 3px;
+    margin-left: 1%;
+    padding: 15px;
+    justify-content: right;   
+    font-size: 1.4em;
+    color: var(--color3);
+    text-align: center;
+}
+
+footer {
+    display: block;
+    margin-top: 1px;
+    border: 3px ridge var(--color4);
+    justify-content: center;
+    text-align: center;
+    background-color: var(--color2);
+}
+
+.entertainmentImg {
+    width: 48%;
+    margin-right: 1%;
+    justify-content: left;
+}
+
+.entertainmentSideText {
+    width: 45%;
+    margin-top: 3px;
+    margin-left: 1%;
+    float: right;
+    padding: 15px;
+    justify-content: right;   
+    font-size: 1.4em;
+    color: var(--color3);
+    text-align: center;
+}
+
+table {
+    width: 98%;
+    border: none;
+    margin: 20px 0;
+    table-layout: fixed;
+}
+
+th, td {
+    border: none;
+    padding: 12px;
+    text-align: center;
+    color: var(--color3);
+}
+
+th {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+td {
+    font-size: 1.3em;
+}
+
+.aboutUs {
+    border: 2px ridge var(--color4);
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+#aboutUsCol1 {
+    width: 60%;
+    border: none;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#aboutUsCol2 {
+    width: 30%;
+    text-align: right;
+    border-left: 2px ridge var(--color4);
+    padding: 8px;
+}
+
+.figureCiting {
+    position: absolute;
+    justify-items: left;
+    top: 1px;
+    padding: 2px;
+    background: none;
+}
+
+.figureNumber {
+    font-size: 1em;
+    color: var(--color5);
+    background: none;
+}
+
+.figureTitle {
+    font-size: 0.75em;
+    color: var(--color5);
+    background: none;
+}
+
+#altBackgroundCream {
+    background-color: var(--color1);
+    opacity: 0.8;
+}
+
+#altBackgroundBlue {
+    background-color: var(--color2);
+    opacity: 0.7;
+}
+
+footer a {
+    background: none;
+}
